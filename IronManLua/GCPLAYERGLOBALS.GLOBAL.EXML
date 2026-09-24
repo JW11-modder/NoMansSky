@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (7.04.0.1)-->
+<!--EXML Created by AMUMSS v.5.6.2.0w-->
+<Data template="cGcPlayerGlobals">
+  <Property name="RequireHandsOnShipControls" value="false" /> !# CHANGED
+  <Property name="PassiveLook" value="false" /> !# CHANGED
+  <Property name="EnablePointDownToSmoothMove" value="true" /> !# CHANGED
+  <Property name="InteractHighlightEffect" value="GcScanEffectData">
+    <Property name="WaveActive" value="false" /> !# CHANGED
+  </Property>
+  <Property name="HolsterHighlightEffect" value="GcScanEffectData">
+    <Property name="WaveActive" value="false" /> !# CHANGED
+  </Property>
+  <Property name="HandSwimEnabled" value="true" /> !# CHANGED
+  <Property name="UnderwaterBuoyancyDepthCurve" value="TkCurveType">
+    <Property name="Curve" value="224" /> !# CHANGED
+  </Property>
+  <Property name="UnderwaterMaxSpeedTotalJetpacking" value="25.000000" /> !# CHANGED
+  <Property name="SpacewalkTetheredMaxSpeed" value="20.000000" /> !# CHANGED
+  <Property name="SpacewalkMaxSpeed" value="20.000000" /> !# CHANGED
+  <Property name="SpacewalkJetpackForce" value="20.000000" /> !# CHANGED
+  <Property name="SpacewalkJetpackUpForce" value="10.000000" /> !# CHANGED
+  <Property name="UnderwaterMaxJetpackEscapeSpeed" value="40.000000" /> !# CHANGED
+  <Property name="CreatureRideFade" value="false" /> !# CHANGED
+  <Property name="MultiplayerShareWanted" value="true" /> !# CHANGED
+  <Property name="ReportAllProjectileDamage" value="false" /> !# CHANGED
+  <Property name="WitnessSenseEnhancementTime" value="0.000000" /> !# CHANGED
+  <Property name="WitnessSenseEnhancement" value="0.000000" /> !# CHANGED
+  <Property name="ShowLowAmmoWarning" value="false" /> !# CHANGED
+  <Property name="WeaponZoomEnabled" value="false" /> !# CHANGED
+  <Property name="WeaponZoomVertRotation" value="0.000000" /> !# CHANGED
+  <Property name="RocketBootsEnabled" value="false" /> !# CHANGED
+  <Property name="FreeJetpackRange" value="999.000000" /> !# CHANGED
+  <Property name="FreeJetpackRangePrime" value="999.000000" /> !# CHANGED
+  <Property name="FreeJetpackRangeNonTerrain" value="999.000000" /> !# CHANGED
+  <Property name="JetpackDrainHorizontalFactor" value="-99.000000" /> !# CHANGED
+  <Property name="JetpackMinLevel" value="0.001000" /> !# CHANGED
+  <Property name="JetpackMaxSpeed" value="25.000000" /> !# CHANGED
+  <Property name="JetpackMaxUpSpeed" value="25.000000" /> !# CHANGED
+  <Property name="JetpackFillRate" value="999.000000" /> !# CHANGED
+  <Property name="JetpackFillRateMidair" value="999.000000" /> !# CHANGED
+  <Property name="JetpackUnderwaterDrainRate" value="-99.000000" /> !# CHANGED
+  <Property name="JetpackUnderwaterFillRate" value="999.000000" /> !# CHANGED
+  <Property name="SpaceJetpackForce" value="3.000000" /> !# CHANGED
+  <Property name="SpaceJetpackUpForce" value="99.000000" /> !# CHANGED
+  <Property name="SpaceJetpackMaxSpeed" value="99.000000" /> !# CHANGED
+  <Property name="SpaceJetpackDrainRate" value="-99.000000" /> !# CHANGED
+  <Property name="EnableHeadMovements" value="false" /> !# CHANGED
+  <Property name="MouseCrosshairVisible" value="false" /> !# CHANGED
+  <Property name="MouseFlightCurve" value="TkCurveType">
+    <Property name="Curve" value="224" /> !# CHANGED
+  </Property>
+  <Property name="UseEnergy" value="false" /> !# CHANGED
+  <Property name="UseHazardProtection" value="false" /> !# CHANGED
+  <Property name="WoundTimeMinimum" value="0.000000" /> !# CHANGED
+  <Property name="WoundDamageLimit" value="32.250000" /> !# CHANGED
+  <Property name="WoundDamageLimitShip" value="0.000000" /> !# CHANGED
+  <Property name="WoundDamageDecayTime" value="0.000000" /> !# CHANGED
+  <Property name="WitnessAIDamageDistance" value="0.000000" /> !# CHANGED
+  <Property name="WitnessAIDamageAngle" value="0.000000" /> !# CHANGED
+  <Property name="MeleeHitEffect" value="GcScanEffectData">
+    <Property name="WaveActive" value="false" /> !# CHANGED
+  </Property>
+  <Property name="InteractionScanRange" value="0.000000" /> !# CHANGED
+  <Property name="AutoAim" value="false" /> !# CHANGED
+  <Property name="AutoAimCentreOffsetCurve" value="TkCurveType">
+    <Property name="Curve" value="Linear" /> !# CHANGED
+  </Property>
+  <Property name="AimDisperseCurve" value="TkCurveType">
+    <Property name="Curve" value="Linear" /> !# CHANGED
+  </Property>
+  <Property name="StickCurve" value="TkCurveType">
+    <Property name="Curve" value="Linear" /> !# CHANGED
+  </Property>
+  <Property name="WeaponBobBlendCurve" value="TkCurveType">
+    <Property name="Curve" value="66" /> !# CHANGED
+  </Property>
+</Data>
