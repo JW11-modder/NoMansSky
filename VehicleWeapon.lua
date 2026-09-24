@@ -1,4 +1,4 @@
-DamageMultiplier = 5
+DamageMultiplier = 10
 SpeedMultiplier = 5
 FireRateMultiplier = 2
 
@@ -13,7 +13,7 @@ Damage multiplier increases damage of your weapons
 Speed multiplier increases projectile speed
 Fire rate multiplier increases weapon fire rate
 ]],
-["NMS_VERSION"]   = "6.40",
+["NMS_VERSION"]   = "7.01",
 ["MODIFICATIONS"] =
   {
     {

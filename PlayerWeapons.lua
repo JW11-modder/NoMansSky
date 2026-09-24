@@ -16,7 +16,7 @@ Speed multiplier increases projectile speed
 Fire rate multiplier increases weapon fire rate (decreases burst delay)
 Range multiplier increases weapon fire range
 ]],
-["NMS_VERSION"]   = "6.40",
+["NMS_VERSION"]   = "7.2",
 ["MODIFICATIONS"] =
   {
     {
@@ -278,6 +278,46 @@ Range multiplier increases weapon fire range
               ["VALUE_CHANGE_TABLE"] =
               {
                 {"Bonus",  "@/"..FireRateMultiplier},
+              }
+            },
+          },
+        },
+      },
+    },
+    {
+      ["MBIN_CHANGE_TABLE"] =
+      {
+        {
+          ["MBIN_FILE_SOURCE"] = "GLOBALS\GCGRAVITYGUNGLOBALS.GLOBAL.MBIN",
+          ["MXML_CHANGE_TABLE"] =
+          {
+            {
+              ["VALUE_CHANGE_TABLE"] =
+              {
+                {"WeaponChargePush",  "0"},
+                {"WeaponChargeGrab",  "0"},
+                {"AttachedMoveableEnergyDecayRate",  "0"},
+              }
+            },
+          },
+        },
+      },
+    },
+    {
+      ["MBIN_CHANGE_TABLE"] =
+      {
+        {
+          ["MBIN_FILE_SOURCE"] = "GLOBALS\GCPLAYERGLOBALS.GLOBAL.MBIN",
+          ["MXML_CHANGE_TABLE"] =
+          {
+            {
+              ["VALUE_CHANGE_TABLE"] =
+              {
+                {"LaserBeamAmmoUseTime",  "0.01"},
+                {"LaserWeaponRange",  "@*"..RangeMultiplier},
+                {"UtilityWeaponRange",  "@*"..RangeMultiplier},
+                {"TerrainLaserRange",  "@*"..RangeMultiplier},
+                {"GravityLaserRange",  "@*"..RangeMultiplier},
               }
             },
           },

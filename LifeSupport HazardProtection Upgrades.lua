@@ -21,7 +21,7 @@ LifeSupportRegenBonusPercent increases suit solar panels efficiency
 HazardProtectionBonusPercent increases amount of hazard protection battery
 HazardProtectionBlockDamagePercent sets hazard damage percent blocked
 ]],
-["NMS_VERSION"]   = "6.40",
+["NMS_VERSION"]   = "7.01",
 ["MODIFICATIONS"] =
   {
     {
